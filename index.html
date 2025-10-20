@@ -1,11 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café e Sabor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffaf5;
+      color: #4b2e2e;
+      text-align: center;
+    }
+
+    header, footer {
+      background-color: #f5deb3;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #5a3e36;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #5a3e36;
+    }
+
+    main {
+      padding: 30px 15px;
+    }
+
+    .slogan p {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    .slogan img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    #cardapio h2 {
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
+
+    #cardapio ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #cardapio li {
+      margin: 8px 0;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #5a3e36;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <header>
+    <h1>Café e Sabor</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="slogan">
+      <p><em>O sabor que desperta seus sentidos.</em></p>
+      <img src="https://via.placeholder.com/300" alt="Foto do café">
+    </section>
+
+    <section id="cardapio">
+      <h2>Nosso Cardápio</h2>
+      <ul>
+        <li>Espresso Clássico</li>
+        <li>Capuccino Cremoso</li>
+        <li>Latte com Baunilha</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <p>&copy; 2025 Café e Sabor</p>
+    <p><a href="https://instagram.com" target="_blank">Instagram</a></p>
+  </footer>
+
 </body>
 </html>
